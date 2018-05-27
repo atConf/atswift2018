@@ -5,6 +5,7 @@
     <Talkers />
     <Tickets />
     <Sponsor />
+    <Venue />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Home from './components/Home.vue'
 import Talkers from './components/Talkers'
 import Tickets from './components/Tickets'
 import Sponsor from './components/Sponsor'
+import Venue from './components/Venue'
 
 export default {
   name: 'app',
@@ -22,7 +24,8 @@ export default {
     Home,
     Talkers,
     Tickets,
-    Sponsor
+    Sponsor,
+    Venue
   }
 }
 </script>
