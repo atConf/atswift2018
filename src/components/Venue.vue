@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" id="venue">
     <div class="hotel">
       <div class="title small" style="border-bottom: 2px solid #FFFFFF; padding-bottom: 27px;">
         The conference will be held at the

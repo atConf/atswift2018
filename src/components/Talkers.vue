@@ -1,5 +1,5 @@
 <template>
-  <div class="talkers">
+  <div class="talkers" id="talker">
     <div class="title">
       Learn From These Great Talkers
     </div>

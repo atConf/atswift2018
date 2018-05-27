@@ -51,6 +51,9 @@ body {
 a {
   text-decoration: none;
 }
+a:visited {
+  color: inherit;
+}
 
 * {
   -webkit-box-sizing: border-box;

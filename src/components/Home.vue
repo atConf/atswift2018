@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home" id="intro">
     <div class="title">@Swift</div>
     <div class="sub-title">
       <span>CON</span>

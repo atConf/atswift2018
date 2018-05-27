@@ -2,9 +2,9 @@
   <div class="navgation-bar">
     <Logo style="margin-left: 20px;"/>
     <div class="menus">
-      <div v-for="menu in menus" class="menu" :key="menu.name">
+      <a v-for="menu in menus" class="menu" :key="menu.name" :href="menu.src">
         {{ menu.name }}
-      </div>
+      </a>
       <button type="button" name="button" class="register">
         Register
       </button>
@@ -24,11 +24,11 @@ export default {
   data () {
     return {
       menus: [
-        { name: 'Intro' },
-        { name: 'Talker' },
-        { name: 'Schedule' },
-        { name: 'Sponsor' },
-        { name: 'Venue' }
+        { name: 'Intro', src: '#intro' },
+        { name: 'Talker', src: '#talker' },
+        { name: 'Schedule', src: '#schedule' },
+        { name: 'Sponsor', src: '#sponsor' },
+        { name: 'Venue', src: '#venue' }
       ]
     }
   }
@@ -59,6 +59,7 @@ export default {
     display: flex;
     flex-direction: row;
     margin-right: 20px;
+    align-items: center;
 
     .menu {
       padding: 0 10px;
@@ -69,8 +70,10 @@ export default {
       border: 2px solid #ED523F;
       border-radius: 4px;
       color: #F0F0F0;
-      font-weight: bold;
+      font-weight: 600;
       font-size: 24px;
+      margin-left: 10px;
+      padding: 9px 20px;
     }
   }
 }
