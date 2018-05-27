@@ -64,6 +64,7 @@ export default {
 
     .menu {
       padding: 0 10px;
+      color: #4C4C4C;
 
       @media (max-width: 800px) {
         & {
