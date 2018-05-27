@@ -101,7 +101,6 @@ export default {
       color: #FFFFFF;
       letter-spacing: 1.09px;
       text-align: center;
-      text-decoration: none;
       padding: 20px 25px;
     }
   }

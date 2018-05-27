@@ -2,18 +2,21 @@
   <div id="app">
     <NavgationBar />
     <Home />
+    <Talkers />
   </div>
 </template>
 
 <script>
 import NavgationBar from './components/NavgationBar.vue'
 import Home from './components/Home.vue'
+import Talkers from './components/Talkers'
 
 export default {
   name: 'app',
   components: {
     NavgationBar,
-    Home
+    Home,
+    Talkers
   }
 }
 </script>
@@ -31,5 +34,15 @@ export default {
 body {
   padding: 0;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
 }
 </style>
