@@ -3,13 +3,13 @@
     <div class="title">@Swift</div>
     <div class="sub-title">
       <span>CON</span>
-      <Logo :width="65" :height="65"/>
+      <Logo class="logo" />
       <span>2018</span>
     </div>
     <div class="comment">
       A conference for Swift developer
     </div>
-    <svg width="135px" height="135px" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class="play" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="Desktop-HD" transform="translate(-653.000000, -453.000000)">
                 <g id="首页" transform="translate(0.000000, 122.000000)">
@@ -22,7 +22,7 @@
         </g>
     </svg>
     <div class="location">
-      <span style="margin-right: 30px;">SEPTEMBER 15TH</span>
+      <span class="date">SEPTEMBER 15TH</span>
       <span>SHANGRILA HOTEL• BEIJING, CHINA</span>
     </div>
     <div class="carousel">
@@ -54,6 +54,12 @@ export default {
     font-size: 120px;
     color: #ED523F;
     text-align: center;
+
+    @media (max-width: 800px) {
+      & {
+        font-size: 70px;
+      }
+    }
   }
 
   .sub-title {
@@ -61,6 +67,27 @@ export default {
     font-size: 90px;
     color: #ED523F;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 800px) {
+      & {
+        font-size: 40px;
+      }
+    }
+
+    .logo {
+      height: 60px;
+      width: 60px;
+
+      @media (max-width: 800px) {
+        & {
+          height: 35px;
+          width: 35px;
+        }
+      }
+    }
   }
 
   .comment {
@@ -71,6 +98,23 @@ export default {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
+
+    @media (max-width: 800px) {
+      & {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .play {
+    height: 135px;
+    width: 135px;
+    @media (max-width: 800px) {
+      & {
+        height: 68px;
+        width: 68px;
+      }
+    }
   }
 
   .location {
@@ -81,6 +125,30 @@ export default {
     letter-spacing: 0;
     line-height: 70px;
     margin-top: 50px;
+
+    .date {
+      margin-right: 30px;
+    }
+
+    @media (max-width: 800px) {
+      & {
+        height: 50px;
+        font-size: 12px;
+        line-height: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .date {
+          margin-right: 0;
+        }
+
+        span {
+          display: block;
+        }
+      }
+    }
   }
 
   .carousel {
@@ -92,6 +160,12 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 800px) {
+      & {
+        height: 253px;
+      }
+    }
   }
 }
 </style>

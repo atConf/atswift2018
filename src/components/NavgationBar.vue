@@ -1,6 +1,6 @@
 <template>
   <div class="navgation-bar">
-    <Logo style="margin-left: 20px;"/>
+    <Logo style="margin-left: 20px; height: 58px; width: 58px;"/>
     <div class="menus">
       <a v-for="menu in menus" class="menu" :key="menu.name" :href="menu.src">
         {{ menu.name }}
@@ -54,6 +54,7 @@ export default {
   justify-content: space-between;
   height: 70px;
   width: 100vw;
+  z-index: 1;
 
   .menus {
     display: flex;
@@ -63,6 +64,12 @@ export default {
 
     .menu {
       padding: 0 10px;
+
+      @media (max-width: 800px) {
+        & {
+          display: none;
+        }
+      }
     }
 
     .register {

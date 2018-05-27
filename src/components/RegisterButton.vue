@@ -14,5 +14,12 @@
   letter-spacing: 1.09px;
   text-align: center;
   padding: 20px 25px;
+
+  @media (max-width: 800px) {
+    & {
+      font-size: 20px;
+      padding: 15px 20px;
+    }
+  }
 }
 </style>

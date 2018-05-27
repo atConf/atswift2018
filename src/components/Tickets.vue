@@ -25,7 +25,7 @@
       Come Join The Fun
     </div>
     <RegisterButton />
-    <img srcset="@/assets/city.png 1x, @/assets/city@2x.png 2x" style="margin-top: 44px;">
+    <img srcset="@/assets/city.png 1x, @/assets/city@2x.png 2x" style="margin-top: 44px; max-width: 100%;">
   </div>
 </template>
 
@@ -77,15 +77,29 @@ export default {
   .container {
     border: 2px solid #CFCFCF;
     border-radius: 8px;
-    width: 800px;
+    max-width: 800px;
+    min-width: 320px;
     margin: 40px 0 15px;
     padding: 0 20px;
+
+    @media (max-width: 800px) {
+      & {
+        padding: 0;
+      }
+    }
 
     .ticket {
       font-size: 30px;
       color: #4C4C4C;
       text-align: left;
       padding: 20px 0;
+
+      @media (max-width: 800px) {
+        & {
+          font-size: 11px;
+          padding: 10px 5px 5px;
+        }
+      }
 
       &:not(:last-child) {
         border-bottom: 1px dashed #CFCFCF;
@@ -95,6 +109,13 @@ export default {
         font-size: 12px;
         color: #AFAFAF;
         margin-top: 5px;
+
+        @media (max-width: 800px) {
+          & {
+            font-size: 5px;
+            margin-top: 0px;
+          }
+        }
       }
     }
   }
@@ -102,6 +123,13 @@ export default {
   .tip {
     font-size: 12px;
     color: #777777;
+
+    @media (max-width: 800px) {
+      & {
+        font-size: 6px;
+        margin: 0 50px;
+      }
+    }
   }
 
   .fun {
@@ -109,6 +137,14 @@ export default {
     margin-bottom: 30px;
     font-size: 18px;
     color: #4C4C4C;
+
+    @media (max-width: 800px) {
+      & {
+        font-size: 10px;
+        margin-top: 50px;
+        margin-bottom: 14px;
+      }
+    }
   }
 }
 </style>

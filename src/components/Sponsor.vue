@@ -140,15 +140,45 @@ export default {
     line-height: 30px;
     margin-top: 20px;
     color: #777777;
+
+    @media (max-width: 800px) {
+      & {
+        font-size: 7px;
+        line-height: 7px;
+        margin: 10px 40px;
+      }
+    }
   }
 
   .level {
     font-weight: bold;
     font-size: 30px;
     color: #4C4C4C;
-    border-bottom: 2px solid #EF6757;
     margin: 25px auto 5px;
-    width: 150px;
+    text-align: center;
+    position: relative;
+
+    &:after {
+      content: ' ';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      width: 150px;
+      border-bottom: 1px solid #EF6757;
+      transform:translateX(-50%);
+
+      @media (max-width: 800px) {
+        & {
+          width: 40px;
+        }
+      }
+    }
+
+    @media (max-width: 800px) {
+      & {
+        font-size: 14px;
+      }
+    }
   }
 
   .sponsor {
@@ -159,6 +189,13 @@ export default {
       width: 260px;
       background: #F8F8F8;
       border: 2px solid #979797;
+
+      @media (max-width: 800px) {
+        & {
+          width: 100px;
+          margin: 5px 10px;
+        }
+      }
     }
   }
 }

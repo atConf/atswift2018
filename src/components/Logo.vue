@@ -1,5 +1,5 @@
 <template>
-  <svg :width="`${width}px`" :height="`${height}px`" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <svg viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
           <filter x="-0.3%" y="-7.1%" width="101.0%" height="120.0%" filterUnits="objectBoundingBox" id="filter-1">
               <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
@@ -22,23 +22,3 @@
       </g>
   </svg>
 </template>
-
-<script>
-export default {
-
-  props: {
-    width: {
-      type: Number,
-      default: 58
-    },
-    height: {
-      type: Number,
-      default: 58
-    }
-  }
-
-}
-</script>
-
-<style lang="css">
-</style>

@@ -36,16 +36,34 @@ footer {
   color: white;
   padding: 70px 0 60px;
 
+  @media (max-width: 800px) {
+      & {
+        padding: 40px 0 30px;
+      }
+    }
+
   h1 {
     font-family: Rubik-Bold;
     font-size: 80px;
     color: #FFFFFF;
     margin: 0;
+
+    @media (max-width: 800px) {
+      & {
+        font-size: 20px;
+      }
+    }
   }
 
   small {
     font-weight: lighter;
     font-size: 18px;
+
+    @media (max-width: 800px) {
+      & {
+        font-size: 8px;
+      }
+    }
   }
 
   i {
@@ -57,6 +75,16 @@ footer {
     height: 40px;
     border-radius: 50%;
     margin: 0 15px;
+
+    @media (max-width: 800px) {
+      & {
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        font-size: 15px;
+        margin: 0 8px;
+      }
+    }
   }
 
   ul {
