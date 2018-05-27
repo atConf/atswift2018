@@ -6,6 +6,7 @@
     <Tickets />
     <Sponsor />
     <Venue />
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Talkers from './components/Talkers'
 import Tickets from './components/Tickets'
 import Sponsor from './components/Sponsor'
 import Venue from './components/Venue'
+import Footer from './components/Footer'
 
 export default {
   name: 'app',
@@ -25,7 +27,8 @@ export default {
     Talkers,
     Tickets,
     Sponsor,
-    Venue
+    Venue,
+    Footer
   }
 }
 </script>
