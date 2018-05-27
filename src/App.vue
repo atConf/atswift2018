@@ -3,6 +3,7 @@
     <NavgationBar />
     <Home />
     <Talkers />
+    <Tickets />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import NavgationBar from './components/NavgationBar.vue'
 import Home from './components/Home.vue'
 import Talkers from './components/Talkers'
+import Tickets from './components/Tickets'
 
 export default {
   name: 'app',
   components: {
     NavgationBar,
     Home,
-    Talkers
+    Talkers,
+    Tickets
   }
 }
 </script>
