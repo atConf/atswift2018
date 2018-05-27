@@ -26,20 +26,20 @@
       <span>SHANGRILA HOTEL• BEIJING, CHINA</span>
     </div>
     <div class="carousel">
-      <a href="#" class="register">
-        REGISTER NOW
-      </a>
+      <RegisterButton />
     </div>
   </div>
 </template>
 
 <script>
 import Logo from './Logo'
+import RegisterButton from './RegisterButton'
 
 export default {
 
   components: {
-    Logo
+    Logo,
+    RegisterButton
   }
 
 }
@@ -92,17 +92,6 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    .register {
-      background: #ED523F;
-      border-radius: 4px;
-      font-family: PingFangSC-Medium;
-      font-size: 24px;
-      color: #FFFFFF;
-      letter-spacing: 1.09px;
-      text-align: center;
-      padding: 20px 25px;
-    }
   }
 }
 </style>

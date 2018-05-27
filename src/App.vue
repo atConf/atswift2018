@@ -4,6 +4,7 @@
     <Home />
     <Talkers />
     <Tickets />
+    <Sponsor />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import NavgationBar from './components/NavgationBar.vue'
 import Home from './components/Home.vue'
 import Talkers from './components/Talkers'
 import Tickets from './components/Tickets'
+import Sponsor from './components/Sponsor'
 
 export default {
   name: 'app',
@@ -19,7 +21,8 @@ export default {
     NavgationBar,
     Home,
     Talkers,
-    Tickets
+    Tickets,
+    Sponsor
   }
 }
 </script>

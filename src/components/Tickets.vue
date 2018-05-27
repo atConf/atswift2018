@@ -21,11 +21,22 @@
     <div class="tip">
       Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.
     </div>
+    <div class="fun">
+      Come Join The Fun
+    </div>
+    <RegisterButton />
+    <img srcset="@/assets/city.png 1x, @/assets/city@2x.png 2x" style="margin-top: 44px;">
   </div>
 </template>
 
 <script>
+import RegisterButton from './RegisterButton'
+
 export default {
+
+  components: {
+    RegisterButton
+  },
 
   data () {
     return {
@@ -91,7 +102,13 @@ export default {
   .tip {
     font-size: 12px;
     color: #777777;
-    // text-align: center;
+  }
+
+  .fun {
+    margin-top: 167px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #4C4C4C;
   }
 }
 </style>
