@@ -14,7 +14,7 @@
       <i class="fab fa-facebook-f"></i>
     </div>
     <ul>
-      <li><a href="#">Become a sponsor</a></li>
+      <li><a target="_blank" href="https://jinshuju.net/f/EpYtyS">Become a sponsor</a></li>
       <li><a href="#">Contacts</a></li>
       <li><a href="#">SwiftGG</a></li>
     </ul>
