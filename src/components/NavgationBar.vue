@@ -46,8 +46,6 @@ export default {
   text-align: center;
   position: fixed;
   top: 0;
-  top: constant(safe-area-inset-top);
-  top: env(safe-area-inset-top);
   display: flex;
   flex-direction: row;
   align-items: center;
