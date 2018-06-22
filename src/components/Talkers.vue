@@ -134,7 +134,7 @@ Apart from being a Software Engineer, he's also the organiser of Playgrounds Con
       @media (max-width: 800px) {
         & {
           position: static;
-          width: 160px;
+          height: 160px;
           margin: auto;
           margin-top: 20px;
         }
