@@ -7,7 +7,7 @@
       <span>2018</span>
     </div>
     <div class="comment">
-      A conference for Swift developer
+      一场面向 Swift 开发者的知识盛宴
     </div>
     <svg class="play" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -22,8 +22,8 @@
         </g>
     </svg>
     <div class="location">
-      <span class="date">SEPTEMBER 15TH</span>
-      <span>SHANGRILA HOTEL• BEIJING, CHINA</span>
+      <span class="date">09月15日</span>
+      <span>香格里拉酒店 • 北京 中国</span>
     </div>
     <div class="carousel">
       <RegisterButton />

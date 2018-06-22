@@ -1,10 +1,10 @@
 <template>
   <div class="tickets">
     <div class="title">
-      TICKETS
+      门票
     </div>
     <div class="sub-title">
-      DON’T MISS OUT
+      别错过最佳购买时机！
     </div>
     <div class="container">
       <div class="ticket" v-for="ticket in tickets" :key="ticket.name">
@@ -19,10 +19,10 @@
       </div>
     </div>
     <div class="tip">
-      Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.
+      以上类型的门票包含了此次会议的所有演讲内容，讨论议题和茶歇部分，不包括住宿、午餐等费用。
     </div>
     <div class="fun">
-      Come Join The Fun
+      欢迎参加 2018 @swift 开发者大会
     </div>
     <RegisterButton />
     <img srcset="@/assets/city.png 1x, @/assets/city@2x.png 2x" style="margin-top: 44px; max-width: 100%;">
@@ -41,10 +41,9 @@ export default {
   data () {
     return {
       tickets: [
-        { name: 'Super Early Bird Tickets', note: 'Available until 20 April 2018 23:59', price: 233 },
-        { name: 'Super Early Bird Ticket + Tax', note: 'Available until 20 April 2018 23:59', price: 555 },
-        { name: 'Regular Tickets', note: 'Available until 20 April 2018 23:59', price: 666 },
-        { name: 'Regular Tickets + Tax', note: 'Available until 20 April 2018 23:59', price: 888 }
+        { name: '早早鸟票', note: '购买日期截止到2018年07月01日', price: 233 },
+        { name: '早鸟票', note: '购买日期截止到2018年08月01日', price: 555 },
+        { name: '标准门票', note: '购买日期截止到2018年09月15日', price: 666 },
       ]
     }
   }

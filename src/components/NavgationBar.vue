@@ -6,7 +6,7 @@
         {{ menu.name }}
       </a>
       <button type="button" name="button" class="register">
-        Register
+        购买门票
       </button>
     </div>
   </div>
@@ -24,11 +24,11 @@ export default {
   data () {
     return {
       menus: [
-        { name: 'Intro', src: '#intro' },
-        { name: 'Talker', src: '#talker' },
-        { name: 'Schedule', src: '#schedule' },
-        { name: 'Sponsor', src: '#sponsor' },
-        { name: 'Venue', src: '#venue' }
+        { name: '简介', src: '#intro' },
+        { name: '讲师', src: '#talker' },
+        { name: '议程', src: '#schedule' },
+        { name: '赞助商', src: '#sponsor' },
+        { name: '地点', src: '#venue' }
       ]
     }
   }

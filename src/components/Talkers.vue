@@ -1,7 +1,7 @@
 <template>
   <div class="talkers" id="talker">
     <div class="title">
-      Learn From These Great Talkers
+      了解我们的讲师阵容
     </div>
     <div class="talker" v-for="(talker, index) in talkers" :key="index" :style="talker.style">
       <div class="links">
@@ -16,6 +16,12 @@
         {{ talker.introduction }}
       </div>
       <img v-if="talker.picture" class="picture" :style="talker.right" :srcset="`${talker.picture} 2x`" sizes="(max-width: 800px) 20px, (max-width: 800px) 20px" />
+    </div>
+    <div style="margin-top: 100px; text-align: center;">
+      <a href="#" class="primary">
+        报名讲师
+      </a>
+      <img srcset="@/assets/airplane.png 1x, @/assets/airplane@2x.png 2x" style="margin: 80px auto; max-width: 100%; display: block">
     </div>
   </div>
 </template>

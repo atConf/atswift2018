@@ -33,7 +33,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
 #app {
   font-family: 'PingFangSC', 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -59,5 +59,20 @@ a:visited {
   -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
         box-sizing: border-box;
+}
+
+.primary {
+  background: #ED523F;
+  border-radius: 4px;
+  font-family: PingFangSC-Medium;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 1.09px;
+  text-align: center;
+  padding: 20px 60px;
+
+  &:visited {
+    color: white;
+  }
 }
 </style>
