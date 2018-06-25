@@ -5,9 +5,9 @@
       <a v-for="menu in menus" class="menu" :key="menu.name" :href="menu.src">
         {{ menu.name }}
       </a>
-      <button type="button" name="button" class="register">
+      <a type="button" name="button" class="register" target="_blank" href="https://www.bagevent.com/event/1519776">
         购买门票
-      </button>
+      </a>
     </div>
   </div>
 </template>

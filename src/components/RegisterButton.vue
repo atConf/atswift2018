@@ -1,5 +1,5 @@
 <template>
-  <a href="#" class="register">
+  <a target="_blank" href="https://www.bagevent.com/event/1519776" class="register">
     购买门票
   </a>
 </template>
