@@ -22,7 +22,7 @@
       以上类型的门票包含了此次会议的所有演讲内容，讨论议题和茶歇部分，不包括住宿、午餐等费用。
     </div>
     <div class="fun">
-      欢迎参加 2018 @swift 开发者大会
+      欢迎参加 2018 @Swift 开发者大会
     </div>
     <RegisterButton />
     <img srcset="@/assets/city.png 1x, @/assets/city@2x.png 2x" style="margin-top: 44px; max-width: 100%;">
