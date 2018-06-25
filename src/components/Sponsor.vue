@@ -5,18 +5,21 @@
     </div>
     <div class="content">
       我们得到了许多赞助商的支持，是它们让今天的 @swift 大会如此与众不同！
-
-      SwiftGG 有着十分优秀的线上和线下的 iOS 社区资源，如果您想成为我们的赞助商
-
-      请发送邮件到 sponsors@atswift.com
+      SwiftGG 有着十分优秀的线上和线下的 iOS 社区资源，欢迎赞助并支持我们！
     </div>
-    <div v-for="sponsor in sponsors" :key="sponsor.level">
+    <!-- <div v-for="sponsor in sponsors" :key="sponsor.level">
       <div class="level">
         {{ sponsor.level }}
       </div>
       <div class="sponsor">
         <img v-for="(item, index) in sponsor.list" :key="index" :src="item.icon">
       </div>
+    </div> -->
+    <div style="margin-top: 100px; text-align: center;">
+      <a target="_blank" href="http://cn.mikecrm.com/Gza336G" class="primary">
+        成为赞助商
+      </a>
+      <img srcset="@/assets/coconut.png 1x, @/assets/coconut@2x.png 2x" style="margin: 80px auto; max-width: 100%; display: block">
     </div>
   </div>
 </template>

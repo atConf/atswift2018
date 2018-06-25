@@ -12,13 +12,13 @@
           {{ name }}
         </div>
       </div>
-      <div class="introduction">
+      <div class="introduction" :style="talker.introductionStyle || ''">
         {{ talker.introduction }}
       </div>
       <img v-if="talker.picture" class="picture" :style="talker.right" :srcset="`${talker.picture} 2x`" sizes="(max-width: 800px) 20px, (max-width: 800px) 20px" />
     </div>
     <div style="margin-top: 100px; text-align: center;">
-      <a href="#" class="primary">
+      <a target="_blank" href="http://cn.mikecrm.com/vHIMvhp" class="primary">
         报名讲师
       </a>
       <img srcset="@/assets/airplane.png 1x, @/assets/airplane@2x.png 2x" style="margin: 80px auto; max-width: 100%; display: block">
@@ -65,14 +65,23 @@ export default {
           right: 'right: 50px;'
         },
         {
-          names: ['Andyy Hope'],
+          names: ['Andyy', 'Hope'],
           links: [{ title: 'WEBSITE' }, { title: 'TWITTER' }],
           introduction: `Andyy is a Software Engineer with a long history of eight years working within the iOS SDK. Over these years, he's seen first hand how the platform has grown and changed whilst the developers find new ways to deliver new features and functionality to users whilst working within the confines of the walled garden.
 Apart from being a Software Engineer, he's also the organiser of Playgrounds Conference, founder of Wu-Tang Clang which is a learn-to-code fundraiser, keeps a technical blog of Swift on Medium, and was a co-organiser for his local CocoaHeads Melbourne monthly iOS meetup.`,
           picture: require('../assets/talks/andyy_hope.png'),
           style: `color: white; background: url(${require('../assets/talks/talk_background_element.png')}) bottom right no-repeat / 525px 448px, #617972;`,
-          right: 'right: 0;'
+          right: 'right: 0;',
+          introductionStyle: 'font-size: 14px;'
         },
+        {
+          names: ['戴铭'],
+          links: [{ title: 'WEBSITE' }, { title: 'TWITTER' }],
+          introduction: `滴滴出行技术专家，热爱画画和编程。会把技术的深入研究和工作的经验总结发在微博(@戴铭)和博客上。对软件架构、性能优化、算法、提高开发效率和编译相关技术有着浓厚的兴趣。`,
+          picture: require('../assets/talks/daiming.png'),
+          style: `color: #4C4C4C; background: url(${require('../assets/talks/talk_background_element.png')}) bottom right no-repeat / 525px 448px, #DFD5D5;`,
+          right: 'right: 10px;'
+        }
       ]
     }
   }
