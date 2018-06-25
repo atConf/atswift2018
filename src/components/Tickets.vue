@@ -41,9 +41,9 @@ export default {
   data () {
     return {
       tickets: [
-        { name: '早早鸟票', note: '购买日期截止到2018年07月01日', price: 233 },
-        { name: '早鸟票', note: '购买日期截止到2018年08月01日', price: 555 },
-        { name: '标准门票', note: '购买日期截止到2018年09月15日', price: 666 },
+        { name: '早早鸟票', note: '购买日期截止到2018年07月01日', price: 279 },
+        { name: '早鸟票', note: '购买日期截止到2018年08月01日', price: 379 },
+        { name: '标准门票', note: '购买日期截止到2018年09月15日', price: 479 },
       ]
     }
   }
@@ -76,7 +76,6 @@ export default {
   .container {
     border: 2px solid #CFCFCF;
     border-radius: 8px;
-    max-width: 800px;
     min-width: 320px;
     margin: 40px 0 15px;
     padding: 0 20px;
@@ -84,6 +83,12 @@ export default {
     @media (max-width: 800px) {
       & {
         padding: 0;
+      }
+    }
+
+    @media (min-width: 800px) {
+      & {
+        width: 800px;
       }
     }
 
