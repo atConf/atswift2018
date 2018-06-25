@@ -2,25 +2,25 @@
   <div class="container" id="venue">
     <div class="hotel">
       <div class="title small" style="border-bottom: 2px solid #FFFFFF; padding-top: 0;">
-        The conference will be held at the
+        大会的举办地点
       </div>
       <div class="title large">
-        SHANGRILA HOTEL
+        香格里拉酒店
       </div>
       <div class="title small" style="border-top: 2px solid #FFFFFF; padding-bottom: 0;">
-        in Beijing, China
+        北京 中国
       </div>
     </div>
     <div class="location">
       <div class="hotel-sample">
-        <div class="title large">The Venue</div>
+        <div class="title large">会议地址</div>
         <div class="normal-container">
-          <div class="title">Grand Ballroom</div>
-          <div class="title">Shangri-La Hotel</div>
+          <div class="title">大宴会厅</div>
+          <div class="title">香格里拉大酒店</div>
         </div>
-        <div class="title small">29 Zizhuyuan Road,</div>
-        <div class="title small">Beijing,</div>
-        <div class="title small">China</div>
+        <div class="title small">紫竹院路 29 号</div>
+        <div class="title small">北京</div>
+        <div class="title small">中国</div>
       </div>
       <img class="map" src="../assets/map.png" alt="">
       <!-- <iframe class="map" width='560' height='440' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://f.amap.com/5r3wU_0D14T9s'></iframe>' -->

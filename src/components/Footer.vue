@@ -14,9 +14,10 @@
       <i class="fab fa-facebook-f"></i>
     </div>
     <ul>
-      <li><a target="_blank" href="https://jinshuju.net/f/EpYtyS">Become a sponsor</a></li>
-      <li><a href="#">Contacts</a></li>
-      <li><a href="#">SwiftGG</a></li>
+      <li><a target="_blank" href="http://cn.mikecrm.com/vHIMvhp">报名讲师</a></li>
+      <li><a target="_blank" href="https://jinshuju.net/f/EpYtyS">成为赞助商</a></li>
+      <li><a href="#">联系我们</a></li>
+      <li><a target="_blank" href="https://weibo.com/swiftguide">SwiftGG</a></li>
     </ul>
     <small>
       @2018 Based on XXX. Designed and created by @Sketchk & @DianQK
