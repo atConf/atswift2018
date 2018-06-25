@@ -65,7 +65,7 @@ export default {
           right: 'right: 50px;'
         },
         {
-          names: ['Anddy Hope'],
+          names: ['Andyy Hope'],
           links: [{ title: 'WEBSITE' }, { title: 'TWITTER' }],
           introduction: `Andyy is a Software Engineer with a long history of eight years working within the iOS SDK. Over these years, he's seen first hand how the platform has grown and changed whilst the developers find new ways to deliver new features and functionality to users whilst working within the confines of the walled garden.
 Apart from being a Software Engineer, he's also the organiser of Playgrounds Conference, founder of Wu-Tang Clang which is a learn-to-code fundraiser, keeps a technical blog of Swift on Medium, and was a co-organiser for his local CocoaHeads Melbourne monthly iOS meetup.`,
