@@ -34,6 +34,19 @@ export default {
 </script>
 
 <style lang="less">
+@font-face {
+  font-family: 'Archivo Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Archivo Narrow Regular'), local('ArchivoNarrow-Regular'), url(./assets/tss0ApVBdCYD5Q7hcxTE1ArZ0bbwiXk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rubik Bold'), local('Rubik-Bold'), url(./assets/iJWHBXyIfDnIV7F6iGmd8WU.ttf) format('truetype');
+}
+
 #app {
   font-family: 'PingFangSC', 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
