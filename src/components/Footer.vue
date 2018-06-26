@@ -6,13 +6,6 @@
     <h1>
       YOU DON’T  WANT TO MISS
     </h1>
-    <div style="margin-top: 150px;">
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-weibo"></i>
-      <i class="fab fa-weixin"></i>
-      <i class="fab fa-slack-hash"></i>
-      <i class="fab fa-facebook-f"></i>
-    </div>
     <ul>
       <li><a target="_blank" href="http://cn.mikecrm.com/vHIMvhp">报名讲师</a></li>
       <li><a target="_blank" href="http://cn.mikecrm.com/Gza336G">成为赞助商</a></li>
