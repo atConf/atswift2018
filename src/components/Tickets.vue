@@ -100,7 +100,7 @@ export default {
 
       @media (max-width: 800px) {
         & {
-          font-size: 11px;
+          font-size: 14px;
           padding: 10px 5px 5px;
         }
       }
@@ -116,7 +116,7 @@ export default {
 
         @media (max-width: 800px) {
           & {
-            font-size: 5px;
+            font-size: 10px;
             margin-top: 0px;
           }
         }
@@ -130,8 +130,8 @@ export default {
 
     @media (max-width: 800px) {
       & {
-        font-size: 6px;
-        margin: 0 50px;
+        font-size: 10px;
+        margin: 0 30px;
       }
     }
   }

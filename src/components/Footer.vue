@@ -16,7 +16,7 @@
     <ul>
       <li><a target="_blank" href="http://cn.mikecrm.com/vHIMvhp">报名讲师</a></li>
       <li><a target="_blank" href="http://cn.mikecrm.com/Gza336G">成为赞助商</a></li>
-      <li><a href="#">联系我们</a></li>
+      <li><a href="mailto:jufaye2014@gmail.com">联系我们</a></li>
       <li><a target="_blank" href="https://weibo.com/swiftguide">SwiftGG</a></li>
     </ul>
     <small>
@@ -51,7 +51,7 @@ footer {
 
     @media (max-width: 800px) {
       & {
-        font-size: 20px;
+        font-size: 25px;
       }
     }
   }

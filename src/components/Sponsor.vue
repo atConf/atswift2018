@@ -149,8 +149,8 @@ export default {
 
     @media (max-width: 800px) {
       & {
-        font-size: 7px;
-        line-height: 7px;
+        font-size: 10px;
+        line-height: 15px;
         margin: 10px 40px;
       }
     }
