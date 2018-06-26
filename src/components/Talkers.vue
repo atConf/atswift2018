@@ -4,9 +4,9 @@
       了解我们的讲师阵容
     </div>
     <div class="talker" v-for="(talker, index) in talkers" :key="index" :style="talker.style">
-      <div class="links">
+      <!-- <div class="links">
         <a v-for="link in talker.links" :key="link.title" href="#">{{ link.title }}</a>
-      </div>
+      </div> -->
       <div class="name-container">
         <div class="name" v-for="name in talker.names" :key="name">
           {{ name }}
