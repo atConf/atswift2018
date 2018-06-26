@@ -3,6 +3,7 @@
     <NavgationBar />
     <Home />
     <Talkers />
+    <Schedule />
     <Tickets />
     <Sponsor />
     <Venue />
@@ -18,6 +19,7 @@ import Tickets from './components/Tickets'
 import Sponsor from './components/Sponsor'
 import Venue from './components/Venue'
 import Footer from './components/Footer'
+import Schedule from './components/Schedule'
 
 export default {
   name: 'app',
@@ -28,7 +30,8 @@ export default {
     Tickets,
     Sponsor,
     Venue,
-    Footer
+    Footer,
+    Schedule
   }
 }
 </script>
