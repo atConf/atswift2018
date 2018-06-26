@@ -119,7 +119,6 @@ export default {
 
   .location {
     background: #F6F6F1;
-    font-family: ArchivoNarrow-Regular;
     font-size: 30px;
     color: #4C4C4C;
     letter-spacing: 0;

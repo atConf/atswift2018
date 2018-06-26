@@ -35,12 +35,6 @@ export default {
 
 <style lang="less">
 @font-face {
-  font-family: 'Archivo Narrow';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Archivo Narrow Regular'), local('ArchivoNarrow-Regular'), url(./assets/tss0ApVBdCYD5Q7hcxTE1ArZ0bbwiXk.ttf) format('truetype');
-}
-@font-face {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 700;
