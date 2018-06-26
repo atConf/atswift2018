@@ -83,6 +83,13 @@ footer {
 
   ul {
     padding: 0;
+    margin-top: 160px;
+
+    @media (max-width: 800px) {
+      & {
+        margin-top: 100px;
+      }
+    }
   }
 
   li {
