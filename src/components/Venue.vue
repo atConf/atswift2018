@@ -70,7 +70,7 @@ export default {
       }
 
       &.large {
-        font-family: Rubik-Bold;
+        font-family: Rubik;
         font-size: 50px;
         margin: 20px;
 
@@ -148,7 +148,7 @@ export default {
         }
 
         &.large {
-          font-family: Rubik-Bold;
+          font-family: Rubik;
           font-size: 40px;
 
           @media (max-width: 800px) {

@@ -44,7 +44,7 @@ footer {
     }
 
   h1 {
-    font-family: Rubik-Bold;
+    font-family: Rubik;
     font-size: 80px;
     color: #FFFFFF;
     margin: 0;
