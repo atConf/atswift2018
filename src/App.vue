@@ -84,6 +84,13 @@ a:visited {
   text-align: center;
   padding: 20px 60px;
 
+  @media (max-width: 800px) {
+    & {
+      font-size: 20px;
+      padding: 15px 20px;
+    }
+  }
+
   &:visited {
     color: white;
   }
