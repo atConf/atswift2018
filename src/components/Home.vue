@@ -85,11 +85,12 @@ export default {
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 
     @media (max-width: 800px) {
       & {
         font-size: 14px;
+        margin-bottom: 60px;
       }
     }
   }
