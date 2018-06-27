@@ -22,7 +22,7 @@
         <div class="title small">北京</div>
         <div class="title small">中国</div>
       </div>
-      <img class="map" src="../assets/map.png" alt="">
+      <img class="map" src="../assets/map.png" alt="" @click="openLocation">
       <!-- <iframe class="map" width='560' height='440' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://f.amap.com/5r3wU_0D14T9s'></iframe>' -->
     </div>
   </div>
@@ -30,6 +30,13 @@
 
 <script>
 export default {
+
+  methods: {
+    openLocation () {
+      location.href = 'https://maps.apple.com/?address=%E4%B8%AD%E5%9B%BD%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E7%B4%AB%E7%AB%B9%E9%99%A2%E8%B7%AF29%E5%8F%B7&auid=1117160141592849&ll=39.944343,116.308065&lsp=57879&q=%E5%8C%97%E4%BA%AC%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E9%A5%AD%E5%BA%97&_ext=Ch4KBAgEEAQKBAgFEAMKBAgGEAsKBAgKEAEKBAgbEAMSJClM0+FnovdDQDGykL9U3xJdQDmwgMjcNvpDQEEPO03GhRRdQA%3D%3D&t=m'
+    }
+  }
+
 }
 </script>
 
