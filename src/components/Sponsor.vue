@@ -36,6 +36,10 @@ export default {
             {
               icon: require('@/assets/sponsors/boxueio.png'),
               url: 'https://boxueio.com'
+            },
+            {
+              icon: require('@/assets/sponsors/infoq.png'),
+              url: 'http://www.infoq.com'
             }
           ]
         }
