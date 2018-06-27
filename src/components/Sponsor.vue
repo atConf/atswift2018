@@ -7,14 +7,14 @@
       我们得到了许多赞助商的支持，是它们让今天的 @Swift 大会如此与众不同！
       SwiftGG 有着十分优秀的线上和线下的 iOS 社区资源，欢迎赞助并支持我们！
     </div>
-    <!-- <div v-for="sponsor in sponsors" :key="sponsor.level">
+    <div v-for="sponsor in sponsors" :key="sponsor.level">
       <div class="level">
         {{ sponsor.level }}
       </div>
       <div class="sponsor">
-        <img v-for="(item, index) in sponsor.list" :key="index" :src="item.icon">
+        <a  v-for="(item, index) in sponsor.list" :key="index" :href="item.url"><img :src="item.icon"></a>
       </div>
-    </div> -->
+    </div>
     <div style="margin-top: 100px; text-align: center;">
       <a target="_blank" href="http://cn.mikecrm.com/Gza336G" class="primary">
         成为赞助商
@@ -31,90 +31,11 @@ export default {
     return {
       sponsors: [
         {
-          level: '白金赞助商',
-          list: [
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            }
-          ]
-        },
-        {
-          level: '黄金赞助商',
-          list: [
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            }
-          ]
-        },
-        {
-          level: '白银赞助商',
-          list: [
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            }
-          ]
-        },
-        {
           level: '合作伙伴',
           list: [
             {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
-            },
-            {
-              icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_240x88dp.png',
-              url: ''
+              icon: require('@/assets/sponsors/boxueio.png'),
+              url: 'https://boxueio.com'
             }
           ]
         }
