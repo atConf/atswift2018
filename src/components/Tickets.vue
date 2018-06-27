@@ -137,7 +137,7 @@ export default {
   }
 
   .fun {
-    margin-top: 167px;
+    margin-top: 100px;
     margin-bottom: 30px;
     font-size: 18px;
     color: #4C4C4C;
