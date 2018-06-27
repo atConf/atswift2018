@@ -9,18 +9,6 @@
     <div class="comment">
       一场面向 Swift 开发者的知识盛宴
     </div>
-    <svg class="play" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g id="Desktop-HD" transform="translate(-653.000000, -453.000000)">
-                <g id="首页" transform="translate(0.000000, 122.000000)">
-                    <g id="Play" transform="translate(654.000000, 332.000000)">
-                        <circle id="Oval" stroke="#EF6757" stroke-width="2" cx="66.5" cy="66.5" r="66.5"></circle>
-                        <path d="M95.115417,71.6826734 L47.0232262,99.7364514 C44.1609147,101.406133 40.4870083,100.439316 38.8173266,97.5770042 C38.2820504,96.6593878 38,95.6161058 38,94.553778 L38,38.446222 C38,35.1325135 40.6862915,32.446222 44,32.446222 C45.0623278,32.446222 46.1056098,32.7282724 47.0232262,33.2635486 L95.115417,61.3173266 C97.9777285,62.9870083 98.944546,66.6609147 97.2748643,69.5232262 C96.7533515,70.417248 96.0094388,71.1611607 95.115417,71.6826734 Z" id="Triangle" fill="#EF6757"></path>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </svg>
     <div class="location">
       <span class="date">09月15日</span>
       <span>香格里拉酒店 • 北京 中国</span>

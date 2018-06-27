@@ -4,7 +4,7 @@
       赞助商
     </div>
     <div class="content">
-      我们得到了许多赞助商的支持，是它们让今天的 @swift 大会如此与众不同！
+      我们得到了许多赞助商的支持，是它们让今天的 @Swift 大会如此与众不同！
       SwiftGG 有着十分优秀的线上和线下的 iOS 社区资源，欢迎赞助并支持我们！
     </div>
     <!-- <div v-for="sponsor in sponsors" :key="sponsor.level">
