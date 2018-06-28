@@ -20,9 +20,9 @@
           </div>
           <div class="separator">
             <div class="line"></div>
-            <div class="circle" :class="item.circle"></div>
+            <div class="circle" :class="item.guest"></div>
           </div>
-          <div class="name">
+          <div class="name" :class="item.guest">
             {{ item.name }}
           </div>
         </div>
@@ -40,58 +40,23 @@ export default {
         {
           title: 'AM',
           items: [
-            {
-              time: '08:30 AM',
-              name: '注册'
-            },
-            {
-              time: '09:20 AM',
-              name: '开场'
-            },
-            {
-              time: '09:30 AM',
-              name: '王巍',
-              circle: 'red'
-            },
-            {
-              time: '10:20 AM',
-              name: '戴铭',
-              circle: 'red'
-            },
-            {
-              time: '11:10 AM',
-              name: '神秘嘉宾',
-              circle: 'red'
-            }
+            { time: '08:30 AM', name: '注册' },
+            { time: '09:20 AM', name: '开场' },
+            { time: '09:30 AM', name: '王巍', guest: 'guest' },
+            { time: '10:20 AM', name: '戴铭', guest: 'guest' },
+            { time: '11:10 AM', name: '神秘嘉宾', guest: 'guest' },
+            { time: '12:00 AM', name: '休息' }
           ]
         },
         {
           title: 'PM',
           items: [
-            {
-              time: '02:00 PM',
-              name: '王文槿',
-              circle: 'red'
-            },
-            {
-              time: '02:55 PM',
-              name: 'Andyy Hope',
-              circle: 'red'
-            },
-            {
-              time: '04:00 PM',
-              name: '刘镇夫',
-              circle: 'red'
-            },
-            {
-              time: '04:55 PM',
-              name: '唐巧',
-              circle: 'red'
-            },
-            {
-              time: '05:00 PM',
-              name: '抽奖'
-            }
+            { time: '01:20 PM', name: '开场' },
+            { time: '01:30 PM', name: '王文槿', guest: 'guest' },
+            { time: '02:20 PM', name: 'Andyy Hope', guest: 'guest' },
+            { time: '03:10 PM', name: '刘镇夫', guest: 'guest' },
+            { time: '04:00 PM', name: '唐巧', guest: 'guest' },
+            { time: '05:00 PM', name: '闭幕' }
           ]
         }
       ]
@@ -184,7 +149,7 @@ export default {
           background-color: white;
           top: 15px;
 
-          &.red {
+          &.guest {
             border: 2px solid #EF6757;
           }
         }
@@ -193,6 +158,10 @@ export default {
       .name {
         font-size: 20px;
         color: #AFAFAF;
+
+        &.guest {
+          color: #4C4C4C;
+        }
       }
     }
   }
