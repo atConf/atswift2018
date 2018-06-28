@@ -34,12 +34,20 @@ export default {
           level: '合作伙伴',
           list: [
             {
+              icon: require('@/assets/sponsors/juejin.png'),
+              url: 'https://juejin.im'
+            },
+            {
               icon: require('@/assets/sponsors/boxueio.png'),
               url: 'https://boxueio.com'
             },
             {
               icon: require('@/assets/sponsors/infoq.png'),
-              url: 'http://www.infoq.com'
+              url: 'https://www.infoq.com'
+            },
+            {
+              icon: require('@/assets/sponsors/segmentfault.png'),
+              url: 'https://segmentfault.com'
             }
           ]
         }
