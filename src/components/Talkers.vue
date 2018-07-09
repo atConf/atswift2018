@@ -81,6 +81,22 @@ Apart from being a Software Engineer, he's also the organiser of Playgrounds Con
           picture: require('../assets/talks/daiming.png'),
           style: `color: #4C4C4C; background: url(${require('../assets/talks/talk_background_element.png')}) bottom right no-repeat / 525px 448px, #DFD5D5;`,
           right: 'right: 10px;'
+        },
+        {
+          names: ['唐晓轩'],
+          links: [{ title: 'WEBSITE' }, { title: 'TWITTER' }],
+          introduction: `礼物说联合创始人，全栈打杂工程师，公众号糖炒小虾，热衷于折腾各种黑技术。`,
+          picture: require('../assets/talks/tangxiaoxuan.png'),
+          style: `color: white; background: url(${require('../assets/talks/talk_background_element.png')}) bottom right no-repeat / 525px 448px, #2C2D4C;`,
+          right: 'right: 5px;'
+        },
+        {
+          names: ['刘冠杉'],
+          links: [{ title: 'WEBSITE' }, { title: 'TWITTER' }],
+          introduction: `现就职于 Booking.com，是一个热爱旅行和美食的 iOS 开发。专注于 Apple 平台多年，对 Swift 和 Objective 有丰富的知识和经验。最近的兴趣主要在奶爸的进修，函数式编程，AR 和 ML 方面。`,
+          picture: require('../assets/talks/liuguanshan.png'),
+          style: `color: #4C4C4C; background: url(${require('../assets/talks/talk_background_element.png')}) bottom right no-repeat / 525px 448px, #D3E4CE;`,
+          right: 'right: 5px;'
         }
       ]
     }

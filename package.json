@@ -15,7 +15,7 @@
     "@vue/cli-plugin-eslint": "^3.0.0-rc.3",
     "@vue/cli-service": "^3.0.0-rc.3",
     "cos-nodejs-sdk-v5": "^2.4.3",
-    "less": "^3.0.4",
+    "less": "^3.5.3",
     "less-loader": "^4.1.0",
     "rd": "^2.0.1",
     "vue-template-compiler": "^2.5.16"
