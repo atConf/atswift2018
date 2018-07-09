@@ -14,18 +14,29 @@
         <div class="partion-title">
           {{ schedule.title }}
         </div>
-        <div v-for="item in schedule.items" :key="item.time + item.name" class="item">
-          <div class="time">
-            {{ item.time }}
+        <template v-for="item in schedule.items">
+          <div :key="item.time + item.name" class="item">
+            <div class="time">
+              {{ item.time }}
+            </div>
+            <div class="separator">
+              <div class="line"></div>
+              <div class="circle" :class="item.guest"></div>
+            </div>
+            <div class="name" :class="item.guest">
+              {{ item.name }}
+            </div>
           </div>
-          <div class="separator">
-            <div class="line"></div>
-            <div class="circle" :class="item.guest"></div>
+          <div v-if="item.topic" :key="item.topic" class="item topic">
+            <div class="time"></div>
+            <div class="separator">
+              <div class="line"></div>
+            </div>
+            <div class="topic" :class="item.guest">
+              {{ item.topic }}
+            </div>
           </div>
-          <div class="name" :class="item.guest">
-            {{ item.name }}
-          </div>
-        </div>
+        </template>
       </div>
     </div>
   </div>
@@ -42,9 +53,9 @@ export default {
           items: [
             { time: '08:30 AM', name: '注册' },
             { time: '09:20 AM', name: '开场' },
-            { time: '09:30 AM', name: '王巍', guest: 'guest' },
-            { time: '10:20 AM', name: '戴铭', guest: 'guest' },
-            { time: '11:10 AM', name: '神秘嘉宾', guest: 'guest' },
+            { time: '09:30 AM', name: '王巍', guest: 'guest', topic: '从 Swift 到机器学习' },
+            { time: '10:20 AM', name: '戴铭', guest: 'guest', topic: '怎么用 Swift 写解释器以及实用场景' },
+            { time: '11:10 AM', name: '刘冠杉', guest: 'guest', topic: '做个多人 AR 游戏挺好的' },
             { time: '12:00 AM', name: '休息' }
           ]
         },
@@ -52,10 +63,11 @@ export default {
           title: 'PM',
           items: [
             { time: '01:20 PM', name: '开场' },
-            { time: '01:30 PM', name: '王文槿', guest: 'guest' },
-            { time: '02:20 PM', name: 'Andyy Hope', guest: 'guest' },
-            { time: '03:10 PM', name: '刘镇夫', guest: 'guest' },
-            { time: '04:00 PM', name: '唐巧', guest: 'guest' },
+            { time: '01:30 PM', name: '唐巧', guest: 'guest', topic: '猿辅导从 OC 到 Swift 的迁移之路' },
+            { time: '02:20 PM', name: 'Andyy Hope', guest: 'guest', topic: 'iOS Architecture improvements with Swift' },
+            { time: '03:10 PM', name: '刘镇夫', guest: 'guest', topic: 'Strings Seven Ways' },
+            { time: '04:00 PM', name: '唐晓轩', guest: 'guest', topic: 'Live Code' },
+            { time: '04:15 PM', name: '王文槿', guest: 'guest', topic: 'Swift For Tensorflow' },
             { time: '05:00 PM', name: '闭幕' }
           ]
         }
@@ -93,7 +105,7 @@ export default {
   &-list {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    // align-items: center;
     justify-content: center;
     margin-top: 39px;
     margin-bottom: 100px;
@@ -108,6 +120,7 @@ export default {
   .content {
     text-align: left;
     margin: 0 100px;
+    flex: 1;
 
     .partion-title {
       font-size: 20px;
@@ -133,12 +146,20 @@ export default {
         height: 43px;
         position: relative;
 
+        & + .topic {
+          height: 30px;
+        }
+
         .line {
           background-color: #CFCFCF;
           width: 2px;
           height: 43px;
           position: absolute;
           left: 5px;
+
+          & + .topic {
+            height: 30px;
+          }
         }
         .circle {
           border: 1px solid #979797;
@@ -162,6 +183,11 @@ export default {
         &.guest {
           color: #4C4C4C;
         }
+      }
+
+      .topic {
+        flex: 1;
+        font-size: 15px;
       }
     }
   }
