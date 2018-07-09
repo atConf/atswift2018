@@ -55,7 +55,7 @@ export default {
             { time: '09:20 AM', name: '开场' },
             { time: '09:30 AM', name: '王巍', guest: 'guest', topic: '从 Swift 到机器学习' },
             { time: '10:20 AM', name: '戴铭', guest: 'guest', topic: '怎么用 Swift 写解释器以及实用场景' },
-            { time: '11:10 AM', name: '刘冠杉', guest: 'guest', topic: '做个多人 AR 游戏挺好的' },
+            { time: '11:10 AM', name: '刘冠杉', guest: 'guest', topic: '做一个有趣的多人 AR 游戏' },
             { time: '12:00 AM', name: '休息' }
           ]
         },
