@@ -48,6 +48,10 @@ export default {
             {
               icon: require('@/assets/sponsors/segmentfault.png'),
               url: 'https://segmentfault.com'
+            },
+            {
+              icon: require('@/assets/sponsors/ioscaff.png'),
+              url: 'https://ioscaff.com'
             }
           ]
         }
