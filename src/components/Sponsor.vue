@@ -12,7 +12,7 @@
         {{ sponsor.level }}
       </div>
       <div class="sponsor">
-        <a  v-for="(item, index) in sponsor.list" :key="index" :href="item.url"><img :src="item.icon"></a>
+        <a  v-for="(item, index) in sponsor.list" :key="index" :href="item.url"><img :src="item.icon" :style="sponsor.style"></a>
       </div>
     </div>
     <div style="margin-top: 100px; text-align: center;">
@@ -32,6 +32,7 @@ export default {
       sponsors: [
         {
           level: '钻石赞助',
+          style: 'height: 110px; width: auto;',
           list: [
             {
               icon: require('@/assets/sponsors/mob.png'),
@@ -41,6 +42,7 @@ export default {
         },
         {
           level: '铂金赞助',
+          style: 'height: 77px; width: auto;',
           list: [
             {
               icon: require('@/assets/sponsors/jiguang.png'),
@@ -54,6 +56,7 @@ export default {
         },
         {
           level: '合作伙伴',
+          style: 'height: 50px; width: auto;',
           list: [
             {
               icon: require('@/assets/sponsors/juejin.png'),
@@ -152,8 +155,6 @@ export default {
     img {
       margin: 15px 50px;
       width: 260px;
-      background: #F8F8F8;
-      border: 2px solid #979797;
 
       @media (max-width: 800px) {
         & {
