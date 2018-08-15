@@ -35,7 +35,7 @@ export default {
           list: [
             {
               icon: require('@/assets/sponsors/mob.png'),
-              url: 'https://juejin.im'
+              url: 'http://www.mob.com'
             }
           ]
         },
@@ -44,11 +44,11 @@ export default {
           list: [
             {
               icon: require('@/assets/sponsors/jiguang.png'),
-              url: 'https://juejin.im'
+              url: 'https://jiguang.cn'
             },
             {
               icon: require('@/assets/sponsors/xiangwushuo.png'),
-              url: 'https://juejin.im'
+              url: 'https://www.xiangwushuo.com'
             }
           ]
         },
