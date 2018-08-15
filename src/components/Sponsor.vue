@@ -31,6 +31,28 @@ export default {
     return {
       sponsors: [
         {
+          level: '钻石赞助',
+          list: [
+            {
+              icon: require('@/assets/sponsors/mob.png'),
+              url: 'https://juejin.im'
+            }
+          ]
+        },
+        {
+          level: '铂金赞助',
+          list: [
+            {
+              icon: require('@/assets/sponsors/jiguang.png'),
+              url: 'https://juejin.im'
+            },
+            {
+              icon: require('@/assets/sponsors/xiangwushuo.png'),
+              url: 'https://juejin.im'
+            }
+          ]
+        },
+        {
           level: '合作伙伴',
           list: [
             {
