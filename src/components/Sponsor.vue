@@ -51,6 +51,10 @@ export default {
             {
               icon: require('@/assets/sponsors/xiangwushuo.png'),
               url: 'https://www.xiangwushuo.com'
+            },
+            {
+              icon: require('@/assets/sponsors/100offer.png'),
+              url: 'https://www.100offer.com/'
             }
           ]
         },
@@ -77,6 +81,18 @@ export default {
             {
               icon: require('@/assets/sponsors/ioscaff.png'),
               url: 'https://ioscaff.com'
+            },
+            {
+              icon: require('@/assets/sponsors/cocoachina.png'),
+              url: 'http://www.cocoachina.com/'
+            },
+            {
+              icon: require('@/assets/sponsors/itdks.png'),
+              url: 'https://www.itdks.com/'
+            },
+            {
+              icon: require('@/assets/sponsors/pricetag.png'),
+              url: 'https://getpricetag.com/'
             }
           ]
         }
