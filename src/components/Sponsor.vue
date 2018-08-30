@@ -92,7 +92,11 @@ export default {
             },
             {
               icon: require('@/assets/sponsors/pricetag.png'),
-              url: 'https://getpricetag.com/'
+              url: 'https://j.youzan.com/HxKT6Y'
+            },
+            {
+              icon: require('@/assets/sponsors/xiaozhuanlan.png'),
+              url: 'https://xiaozhuanlan.com/book'
             }
           ]
         }
