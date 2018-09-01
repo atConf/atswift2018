@@ -12,7 +12,7 @@
         {{ sponsor.level }}
       </div>
       <div class="sponsor">
-        <a  v-for="(item, index) in sponsor.list" :key="index" :href="item.url"><img :src="item.icon" :style="sponsor.style"></a>
+        <a  v-for="(item, index) in sponsor.list" :key="index" :href="item.url"><img :src="item.icon" :style="item.style || sponsor.style"></a>
       </div>
     </div>
     <div style="margin-top: 100px; text-align: center;">
@@ -55,6 +55,11 @@ export default {
             {
               icon: require('@/assets/sponsors/100offer.png'),
               url: 'https://www.100offer.com/'
+            },
+            {
+              icon: require('@/assets/sponsors/pingxx.png'),
+              url: 'https://www.pingxx.com/',
+              style: 'height: 217px; width: auto; margin-top: -20px; margin-bottom: -56px;'
             }
           ]
         },
@@ -76,7 +81,8 @@ export default {
             },
             {
               icon: require('@/assets/sponsors/segmentfault.png'),
-              url: 'https://segmentfault.com'
+              url: 'https://segmentfault.com',
+              style: 'height: 80px; width: auto;'
             },
             {
               icon: require('@/assets/sponsors/ioscaff.png'),
@@ -84,15 +90,18 @@ export default {
             },
             {
               icon: require('@/assets/sponsors/cocoachina.png'),
-              url: 'http://www.cocoachina.com/'
+              url: 'http://www.cocoachina.com/',
+              style: 'height: 90px; width: auto; margin-bottom: -10px;'
             },
             {
               icon: require('@/assets/sponsors/itdks.png'),
-              url: 'https://www.itdks.com/'
+              url: 'https://www.itdks.com/',
+              style: 'height: 40px; width: auto;'
             },
             {
               icon: require('@/assets/sponsors/pricetag.png'),
-              url: 'https://j.youzan.com/HxKT6Y'
+              url: 'https://j.youzan.com/HxKT6Y',
+              style: 'height: 80px; width: auto; margin-bottom: -8px;'
             },
             {
               icon: require('@/assets/sponsors/xiaozhuanlan.png'),
