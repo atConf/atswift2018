@@ -106,6 +106,10 @@ export default {
             {
               icon: require('@/assets/sponsors/xiaozhuanlan.png'),
               url: 'https://xiaozhuanlan.com/book'
+            },
+            {
+              icon: require('@/assets/sponsors/ptpress.png'),
+              url: 'http://www.ptpress.com.cn/'
             }
           ]
         }
