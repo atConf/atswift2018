@@ -51,7 +51,7 @@ export default {
         {
           names: ['唐巧'],
           links: [{ title: 'WEBSITE' }, { title: 'TWITTER' }],
-          introduction: `唐巧，男，80 后，程序员，作为核心员工在 猿辅导 参与创业，担任 小猿搜题 产品技术负责人。著有《iOS 开发进阶》 一书。曾开发 网易邮箱、网易微博、有道云笔记、猿题库、小猿搜题。`,
+          introduction: `唐巧，男，80 后，程序员，作为核心员工在猿辅导参与创业，担任小猿搜题产品技术负责人。著有《iOS 开发进阶》一书。曾开发网易邮箱、网易微博、有道云笔记、猿题库、小猿搜题。`,
           picture: require('../assets/talks/tangqiao.png'),
           style: `color: white; background: url(${require('../assets/talks/talk_background_element.png')}) bottom right no-repeat / 525px 448px, #4F4041;`,
           right: 'right: 15px;'
